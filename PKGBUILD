@@ -5,7 +5,7 @@ pkgrel=1
 pkgdesc="an installer for the general purpose language Haskell"
 arch=('x86_64' 'aarch64' 'i686')
 url="https://www.haskell.org/ghcup/"
-license=('LGPL3')
+license=('LGPL-3.0-only')
 depends=()
 optdepends=('curl'
             'wget'
