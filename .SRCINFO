@@ -13,6 +13,7 @@ pkgbase = ghcup-hs-bin
 	optdepends = ncurses5-compat-libs: using older ghc's linking against libtinfo.so.5
 	provides = ghcup-hs
 	conflicts = ghcup-hs
+	options = !debug
 	source_x86_64 = ghcup-0.2.6.2-1-x86_64::https://downloads.haskell.org/~ghcup/0.2.6.2/x86_64-linux-ghcup-0.2.6.2
 	sha256sums_x86_64 = 9ed5da5449b48043a0d17e767c05d2ef585e25a639bb934329496c6d2fad9cf8
 	source_aarch64 = ghcup-0.2.6.2-1-aarch64::https://downloads.haskell.org/~ghcup/0.2.6.2/aarch64-linux-ghcup-0.2.6.2
